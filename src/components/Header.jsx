@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-
+import logo from "../images/logo.png";
 function Header() {
   return (
     <div className="header-container">
@@ -16,7 +16,7 @@ function Header() {
       </div>
       </div>
       <div className='img'>
-      <img src="logo.png" className="logo-img" alt="Notification Bell Icon" />
+      <img src={logo} className="logo-img" alt="Notification Bell Icon" />
       </div>
     </div>
   );
